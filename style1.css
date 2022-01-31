@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@300&family=Great+Vibes&family=Neonderthaw&family=Play&family=Shadows+Into+Light&display=swap");
+
+body {
+  background-color: bisque;
+  color: sienna;
+}
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-style: solid;
+  border-bottom-color: sienna;
+  font-size: 60px;
+}
+h1 {
+  font-family: Great Vibes;
+  text-align: center;
+}
+nav {
+  list-style-type: none;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: sienna;
+  width: fit-content;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(233, 83, 14);
+}
+
+.active {
+  background-color: #04aa6d;
+}
+main p {
+  border-style: solid;
+  padding: 20px;
+  margin: 20px;
+  border-width: medium 10px thick 15px;
+  text-align: center;
+}
+video {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(189, 78, 26);
+  box-shadow: 3px 3px 3px rgb(64, 71, 64);
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+footer ul {
+  margin: 0 auto;
+  width: fit-content;
+}
+@media (min-width: 1024px) {
+  body {
+    background-color: rgb(10, 79, 88);
+    color: white;
+  }
+  header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: sienna;
+    font-size: 60px;
+  }
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  nav {
+    list-style-type: none;
+    font-size: 50px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(148, 160, 45);
+    width: fit-content;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: rgb(233, 83, 14);
+  }
+
+  .active {
+    background-color: #04aa6d;
+  }
+  main p {
+    border-style: groove;
+    padding: 20px;
+    margin: 20px;
+    border-width: medium 10px thick 15px;
+    text-align: center;
+  }
+  video {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(16, 164, 184);
+    box-shadow: 3px 3px 3px rgb(64, 71, 64);
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  footer ul {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Hackathon</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Music</a></li>
+        <li><a href="about.html">Singer</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Contact Form</h1>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Phone: <input type="tel" name="phone" /></label>
+      </p>
+      <p>
+        <label>Age: <input type="number" name="age" min="1" max="200" /></label>
+      </p>
+      <p>
+        <label>Birthdate: <input type="date" name="date" /></label>
+      </p>
+      <p>
+        <label>Gender: </label>
+      </p>
+      <p>
+        <label>Male <input type="radio" name="gender" value="male" /></label>
+      </p>
+      <p>
+        <label
+          >Female <input type="radio" name="gender" value="female"
+        /></label>
+      </p>
+      <p>
+        <label>favorite cuisine:</label>
+      </p>
+      <p>
+        <label>Italian <input type="checkbox" name="italian" /></label>
+      </p>
+      <p>
+        <label>French <input type="checkbox" name="french" /></label>
+      </p>
+      <p>
+        <label>Spanich <input type="checkbox" name="spanish" /></label>
+      </p>
+      <p>
+        <label>Arabic <input type="checkbox" name="arabic" /></label>
+      </p>
+      <p>
+        <label>favorite apron color <input type="color" name="color" /></label>
+      </p>
+      <p>
+        <label
+          >biography <textarea name="bio"></textarea>
+          <input type="hidden" name="hidden" value="hi"
+        /></label>
+      </p>
+      <p>
+        <label>file upload <input type="file" name="file" /></label>
+      </p>
+      <p>
+        <label>URL <input type="url" name="url" /></label>
+      </p>
+      <p>
+        <button type="reset">Reset</button>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+
+    <footer>Copyright ©️ Farid Attamimi -</footer>
+  </body>
+</html>
